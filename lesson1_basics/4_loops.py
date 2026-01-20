@@ -3,7 +3,6 @@ for i in range(1, 6): #range means the numbers that we are iterating over; note 
     print(f"The values of i from the first for loop {i}")
 
 #for loops for arrays
-'''
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
@@ -11,7 +10,6 @@ for fruit in fruits:
 for i in range(0, len(fruits)):
     print(fruits[i])
 
-'''
 
 #while loop
 count = 1 # counter variable
@@ -38,11 +36,7 @@ for row in range(1,3):
     for col in range(1, 3):
         print(row, col)
 
-#TODO: homework
-'''
-Homework: use a nested for loop to create a matrix multiplication calculator
-Print out the two matrices added and the result onto the screen
-'''
+
 
 
 
