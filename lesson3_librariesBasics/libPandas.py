@@ -66,6 +66,4 @@ feb_sales = pd.DataFrame({
 total_sales = pd.concat([jan_sales, feb_sales], ignore_index=True)
 
 print(total_sales)
-
-
 print(merged_df)
