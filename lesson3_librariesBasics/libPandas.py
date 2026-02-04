@@ -1,9 +1,9 @@
 import pandas as pd
 
-
 #main data type: pandas dataframe (pandas series is also an option)
 #main library used for data processing, EDA, storage, and computations
 #storage and computations use Pandas on when working with data sets that are not too large
+
 
 data = {
     'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
@@ -13,6 +13,7 @@ data = {
 }
 
 df = pd.DataFrame(data)
+print(df.describe())
 
 #Data filtering
 it_high_earners = df[(df['Department'] == 'IT') & (df['Salary'] > 75000)]

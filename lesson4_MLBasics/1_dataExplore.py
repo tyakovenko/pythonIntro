@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 # Load the dataset
 df = sns.load_dataset('penguins')
+print(df.head())
 
 # Drop rows with missing values for a cleaner analysis
 df = df.dropna()
