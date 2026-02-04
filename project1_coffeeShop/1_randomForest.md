@@ -2,6 +2,10 @@
 For this project, we will use the random tree model to predict the total sales based on transaction features. below are the steps to follow to get the possible result. For practice, replicate this process
 but use the linear regressio model instead.
 
+The following diagram represents the overall project flow: 
+
+![diagram]()
+
 ## Step 1: Get a dataset
 When working with ML projects, you want to make sure that you have a reliable dataset. For these projects,
 we will use pre-existing dataset. Kaggle and official government websites are great resources for reliable and diverse data. 
