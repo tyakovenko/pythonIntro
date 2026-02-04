@@ -4,7 +4,9 @@ but use the linear regressio model instead.
 
 The following diagram represents the overall project flow: 
 
-![diagram]()
+<p align="center">
+  <img src="projDiagram.png" width="40%" alt="diagram">
+</p>
 
 ## Step 1: Get a dataset
 When working with ML projects, you want to make sure that you have a reliable dataset. For these projects,
