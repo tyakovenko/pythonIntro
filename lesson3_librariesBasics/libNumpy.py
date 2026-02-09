@@ -1,5 +1,6 @@
 import numpy as np
 
+
 arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) #array data type; makes numpy operations easier when working with this array than classic
 arrReg = [1, 'hi', 2]
 #most of the time you would walk to have np arrays
