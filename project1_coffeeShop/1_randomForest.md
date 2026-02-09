@@ -19,6 +19,8 @@ The first step in processing your data includes correctly loading the dataset an
 At this stage, we can also perform some basic data cleaning and reformating to make the
 next steps easier to work with. Usually, this initial step is done using basic pandas functions.
 
+Optional: Some feature selection can be performed based on feature importance
+
 ## Step 3: Perform Exploratory Data Analysis (EDA)
 EDA is a crucial first step in data processing. Here, we will get a better understanding of all the data features (columns). 
 More specifically, we will get a look at counts of missing values, all the unique values, value distributions, etc. Usually EDA consists of the following steps: 
@@ -76,6 +78,13 @@ Follow similar steps for the linear regression model.
 
 ## Step 5: Evaluate performance of the two models
 The models are usually evaluated base on their accuracy, precision, and recall. All of those metrics can be found in the confusion matrix.
+Some of the other exaluation metrics include:
+Mean Absolute Error: by how much the model is off (in units of interest)
+R squared: how good is the model is than a random
+Precision: how often is the model right
+Recall: how many did the model successfully catch of the edge cases?
+F1-score: summary between precision and recall
+
 #### **Evaluation**
 * Use the test set to generate a **Confusion Matrix**.
 * Calculate metrics: **Accuracy**, **Precision**, **Recall**, and **F1-Score**.
