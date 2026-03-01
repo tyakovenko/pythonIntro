@@ -60,6 +60,7 @@ This step ensures that you have a "good" dataset to help you answer your problem
 **Goal:** Clean and format data for algorithmic processing.
 
 * **Handling Missing Values:** Impute numerical values with `median` and categorical with `mode`.
+*  Remove all not-needed features
 * **Categorical Encoding:** Convert text to numbers via One-Hot or Label Encoding.
 * **Feature Scaling:** Use `StandardScaler` to normalize numerical ranges.
 * **Train/Test Split:** Divide data into Training (80%) and Test (20%) sets.
